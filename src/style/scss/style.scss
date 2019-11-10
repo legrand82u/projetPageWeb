@@ -1,0 +1,18 @@
+@import "normalize";
+
+.annotations{
+  font-size: 12px;
+  &:last-child{
+    margin-bottom: 2%;
+  }
+}
+
+.petitTitre{
+  font-size: 18px;
+  color: darkorange;
+}
+
+.petitTexte{
+  font-size: 14px;
+
+}

@@ -2,9 +2,20 @@
 
 .annotations{
   font-size: 12px;
-  &:last-child{
-    margin-bottom: 2%;
-  }
+}
+
+#barreFlex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.texteBarre{
+  padding: 0;
+  margin:0;
+}
+
+.barreLogos{
+  align-items: flex-end;
 }
 
 .petitTitre{
@@ -13,6 +24,7 @@
 }
 
 .petitTexte{
+  margin-top: 1%;
   font-size: 14px;
 
 }

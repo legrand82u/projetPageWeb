@@ -493,5 +493,38 @@ th {
     grid-auto-flow: row dense;
   }
 }
+@media screen and (max-width: 1249px) {
+  #divGrid {
+    display: grid;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 98vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-flow: row dense;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #divGrid {
+    display: grid;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 98vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-flow: row dense;
+  }
+}
+@media screen and (max-width: 820px) {
+  #divGrid {
+    display: grid;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 98vw;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-flow: row dense;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

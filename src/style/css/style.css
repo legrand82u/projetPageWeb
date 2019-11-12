@@ -417,6 +417,15 @@ th {
   justify-content: space-between;
 }
 
+#titreSite {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+#titreSite img {
+  height: 100%;
+}
+
 .texteBarre {
   padding: 0;
   margin: 0;
@@ -434,6 +443,29 @@ th {
 .petitTexte {
   margin-top: 1%;
   font-size: 14px;
+}
+
+#divGrid {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.large {
+  grid-column: span 2;
+}
+.large img {
+  width: 100%;
+  height: auto;
+}
+
+.petit {
+  grid-column: span 1;
+}
+.petit img {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

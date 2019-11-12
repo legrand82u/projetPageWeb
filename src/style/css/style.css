@@ -466,20 +466,23 @@ th {
   margin-bottom: 2%;
 }
 
+.rotaGauche {
+  transform: rotate(0.5deg);
+}
+
+.rotaDroite {
+  transform: rotate(-0.5deg);
+}
+
 @media screen and (min-width: 1601px) {
   #divGrid {
     display: grid;
     padding-left: 1vw;
     padding-right: 1vw;
     width: 98vw;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: 10px;
     grid-auto-flow: row dense;
-  }
-
-  petit:nth-child(1) {
-    grid-column-start: 5;
-    grid-row-start: 1;
   }
 }
 @media screen and (max-width: 1600px) {
@@ -488,7 +491,7 @@ th {
     padding-left: 1vw;
     padding-right: 1vw;
     width: 98vw;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
     grid-auto-flow: row dense;
   }
@@ -499,7 +502,7 @@ th {
     padding-left: 1vw;
     padding-right: 1vw;
     width: 98vw;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     grid-auto-flow: row dense;
   }
@@ -510,7 +513,7 @@ th {
     padding-left: 1vw;
     padding-right: 1vw;
     width: 98vw;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     grid-auto-flow: row dense;
   }
@@ -521,9 +524,10 @@ th {
     padding-left: 1vw;
     padding-right: 1vw;
     width: 98vw;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     grid-auto-flow: row dense;
+    grid-auto-flow: row;
   }
 }
 

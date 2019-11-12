@@ -420,7 +420,7 @@ th {
 #titreSite {
   display: flex;
   align-items: center;
-  height: 50px;
+  height: 5vh;
 }
 #titreSite img {
   height: 100%;
@@ -429,6 +429,7 @@ th {
 .texteBarre {
   padding: 0;
   margin: 0;
+  font-size: 1rem;
 }
 
 .barreLogos {
@@ -445,13 +446,6 @@ th {
   font-size: 14px;
 }
 
-#divGrid {
-  display: grid;
-  width: 100vw;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
-}
-
 .large {
   grid-column: span 2;
 }
@@ -466,6 +460,38 @@ th {
 .petit img {
   width: 100%;
   height: auto;
+}
+.petit .barreInfoSup {
+  width: 100vw;
+  margin-bottom: 2%;
+}
+
+@media screen and (min-width: 1601px) {
+  #divGrid {
+    display: grid;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 98vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-flow: row dense;
+  }
+
+  petit:nth-child(1) {
+    grid-column-start: 5;
+    grid-row-start: 1;
+  }
+}
+@media screen and (max-width: 1600px) {
+  #divGrid {
+    display: grid;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 98vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-flow: row dense;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

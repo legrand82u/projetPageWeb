@@ -6,11 +6,11 @@
 
 @mixin grid($nbcol){
   display: grid;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  width: 98vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  width: 95vw;
   grid-template-columns: repeat($nbcol,1fr);
-  grid-gap: 10px;
+  grid-gap: 20px;
   grid-auto-flow: row dense;
 }
 
@@ -23,6 +23,10 @@
 }
 
 .navigationDiv {
+  color: darkorange;
+  a:visited {
+    color: orange;
+  }
   li {
     list-style: none;
   }
@@ -42,11 +46,23 @@
   }
 }
 
+.delim {
+  font-weight: bold;
+  width: 2vw;
+  height: 0.3vw;
+  float:left;
+  background-color: black;
+}
+
+.texteAbsolu {
+
+}
 
 .texteBarre{
   padding: 0;
   margin:0;
-  font-size: 1rem;
+  padding-bottom:4vh;
+  font-size: 1.5rem;
 }
 
 .barreLogos{
@@ -66,8 +82,7 @@
 
 .large {
   grid-column: span 2;
-  border: 1px solid black;
-
+  box-shadow: 5px 5px silver;
 
   img {
     width: 100%;
@@ -77,8 +92,7 @@
 
 .petit {
   grid-column: span 1;
-  border: 1px solid black;
-
+  box-shadow: 5px 5px silver;
 
   img {
     width: 100%;
@@ -86,9 +100,11 @@
   }
 }
 .barreInfoSup {
-  width: 100vw;
+  width: 95vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
   margin-bottom: 2%;
-  border: 1px solid black;
+  box-shadow: 5px 5px silver;
 }
 
 

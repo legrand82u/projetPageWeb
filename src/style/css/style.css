@@ -416,6 +416,12 @@ th {
   font-size: 12px;
 }
 
+.navigationDiv {
+  color: darkorange;
+}
+.navigationDiv a:visited {
+  color: orange;
+}
 .navigationDiv li {
   list-style: none;
 }
@@ -434,10 +440,19 @@ th {
   height: 100%;
 }
 
+.delim {
+  font-weight: bold;
+  width: 2vw;
+  height: 0.3vw;
+  float: left;
+  background-color: black;
+}
+
 .texteBarre {
   padding: 0;
   margin: 0;
-  font-size: 1rem;
+  padding-bottom: 4vh;
+  font-size: 1.5rem;
 }
 
 .barreLogos {
@@ -457,7 +472,7 @@ th {
 
 .large {
   grid-column: span 2;
-  border: 1px solid black;
+  box-shadow: 5px 5px silver;
 }
 .large img {
   width: 100%;
@@ -466,7 +481,7 @@ th {
 
 .petit {
   grid-column: span 1;
-  border: 1px solid black;
+  box-shadow: 5px 5px silver;
 }
 .petit img {
   width: 100%;
@@ -474,9 +489,11 @@ th {
 }
 
 .barreInfoSup {
-  width: 100vw;
+  width: 95vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
   margin-bottom: 2%;
-  border: 1px solid black;
+  box-shadow: 5px 5px silver;
 }
 
 .rotaGauche {
@@ -490,11 +507,11 @@ th {
 @media screen and (min-width: 1601px) {
   #divGrid {
     display: grid;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    width: 98vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 95vw;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-auto-flow: row dense;
   }
 
@@ -505,11 +522,11 @@ th {
 @media screen and (max-width: 1600px) {
   #divGrid {
     display: grid;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    width: 98vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 95vw;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-auto-flow: row dense;
   }
 
@@ -520,11 +537,11 @@ th {
 @media screen and (max-width: 1249px) {
   #divGrid {
     display: grid;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    width: 98vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 95vw;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-auto-flow: row dense;
   }
 
@@ -535,11 +552,11 @@ th {
 @media screen and (max-width: 1024px) {
   #divGrid {
     display: grid;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    width: 98vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 95vw;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-auto-flow: row dense;
   }
 
@@ -550,11 +567,11 @@ th {
 @media screen and (max-width: 820px) {
   #divGrid {
     display: grid;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    width: 98vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 95vw;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-auto-flow: row dense;
   }
 

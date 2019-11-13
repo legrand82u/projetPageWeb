@@ -88,16 +88,19 @@
 
 
 .rotaGauche {
-  @include rota(0.5deg);
+  @include rota(0.7deg);
 }
 
 .rotaDroite{
-  @include rota(-0.5deg);
+  @include rota(-0.7deg);
 }
 
 @media screen and (min-width: 1601px) {
   #divGrid {
     @include grid(6);
+  }
+  .navigationDiv.petit{
+    grid-column: span 1;
   }
 }
 
@@ -105,11 +108,17 @@
   #divGrid {
     @include grid(5);
   }
+  .navigationDiv.petit{
+    grid-column: span 1;
+  }
 }
 
 @media screen and (max-width: 1249px){
   #divGrid {
     @include grid(4);
+  }
+  .navigationDiv.petit{
+    grid-column: span 1;
   }
 }
 
@@ -117,11 +126,17 @@
   #divGrid {
     @include grid(3);
   }
+  .navigationDiv.petit{
+    grid-column: span 1;
+  }
 }
 
 @media screen and (max-width: 820px){
   #divGrid {
     @include grid(2);
+  }
+  .navigationDiv.petit{
+    grid-column: span 2;
   }
 }
 

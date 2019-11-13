@@ -18,7 +18,11 @@
   font-size: 12px;
 }
 
-
+.navigationDiv {
+  li {
+    list-style: none;
+  }
+}
 
 #barreFlex{
   display: flex;
@@ -57,6 +61,8 @@
 
 .large {
   grid-column: span 2;
+  border: 1px solid black;
+
 
   img {
     width: 100%;
@@ -66,17 +72,20 @@
 
 .petit {
   grid-column: span 1;
+  border: 1px solid black;
+
 
   img {
     width: 100%;
     height: auto;
   }
-
-  .barreInfoSup {
-    width: 100vw;
-    margin-bottom: 2%;
-  }
 }
+.barreInfoSup {
+  width: 100vw;
+  margin-bottom: 2%;
+  border: 1px solid black;
+}
+
 
 .rotaGauche {
   @include rota(0.5deg);
@@ -113,7 +122,6 @@
 @media screen and (max-width: 820px){
   #divGrid {
     @include grid(2);
-    grid-auto-flow: row;
   }
 }
 

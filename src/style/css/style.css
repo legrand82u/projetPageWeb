@@ -412,6 +412,10 @@ th {
   font-size: 12px;
 }
 
+.navigationDiv li {
+  list-style: none;
+}
+
 #barreFlex {
   display: flex;
   justify-content: space-between;
@@ -448,6 +452,7 @@ th {
 
 .large {
   grid-column: span 2;
+  border: 1px solid black;
 }
 .large img {
   width: 100%;
@@ -456,14 +461,17 @@ th {
 
 .petit {
   grid-column: span 1;
+  border: 1px solid black;
 }
 .petit img {
   width: 100%;
   height: auto;
 }
-.petit .barreInfoSup {
+
+.barreInfoSup {
   width: 100vw;
   margin-bottom: 2%;
+  border: 1px solid black;
 }
 
 .rotaGauche {
@@ -527,7 +535,6 @@ th {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     grid-auto-flow: row dense;
-    grid-auto-flow: row;
   }
 }
 

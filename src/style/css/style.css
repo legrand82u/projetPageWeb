@@ -408,6 +408,10 @@ th {
   padding: 0;
 }
 
+.texteBarre {
+  margin-bottom: 5%;
+}
+
 .annotations {
   font-size: 12px;
 }
@@ -438,6 +442,7 @@ th {
 
 .barreLogos {
   align-items: flex-end;
+  margin-right: 2%;
 }
 
 .petitTitre {

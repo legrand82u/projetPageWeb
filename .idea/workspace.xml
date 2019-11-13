@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Webdevnotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Webdevnotes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/scss/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +76,7 @@
       <workItem from="1573560491380" duration="8675000" />
       <workItem from="1573577855359" duration="2269000" />
       <workItem from="1573586861126" duration="3102000" />
-      <workItem from="1573628138099" duration="2760000" />
+      <workItem from="1573628138099" duration="4612000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout fichier de style">
       <created>1573394159331</created>

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aaade2e-5c9f-4919-9390-7049c7902335" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Webdevnotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Webdevnotes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/scss/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +76,10 @@
       <workItem from="1573586861126" duration="3102000" />
       <workItem from="1573628138099" duration="7217000" />
       <workItem from="1573647417097" duration="3620000" />
+      <workItem from="1573665340725" duration="582000" />
+      <workItem from="1573920759463" duration="161000" />
+      <workItem from="1574064453347" duration="483000" />
+      <workItem from="1574064952722" duration="461000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout fichier de style">
       <created>1573394159331</created>
